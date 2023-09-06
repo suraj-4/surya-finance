@@ -15,7 +15,7 @@ $('.hero-slider').owlCarousel({
     dots:false,
     autoplayHoverPause:true,
     autoHeight:false,
-    autoplay :false,
+    autoplay :true,
     autoplayTimeout :8000
 });
 
@@ -34,7 +34,7 @@ $('.owl-two').owlCarousel({
     dots: false,
     center : false,
     autoplayHoverPause:true,
-    autoplay :false,
+    autoplay :true,
     autoplayTimeout :2000,
     // stagePadding : 80, // in px
     responsive:{
@@ -59,7 +59,7 @@ $('.owl-three').owlCarousel({
     dots: true,
     center : false,
     autoplayHoverPause:true,
-    autoplay :false,
+    autoplay :true,
     autoplayTimeout :2000,
     // stagePadding : 80, // in px
     responsive:{
@@ -84,7 +84,7 @@ $('.owl-forth').owlCarousel({
     nav : false,
     dots: true,
     center : false,
-    autoplay :false,
+    autoplay :true,
     autoplayTimeout :2000,
     // stagePadding : 80, // in px
     responsive:{
@@ -109,7 +109,7 @@ $('.owl-fifth').owlCarousel({
     nav : false,
     dots: false,
     center : false,
-    autoplay :false,
+    autoplay :true,
     autoplayTimeout :2000,
     // stagePadding : 80, // in px
     responsive:{
