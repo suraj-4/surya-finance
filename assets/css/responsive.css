@@ -30,46 +30,6 @@
     .top-header .social-icon{
         width: 40%;
     }
-    .navbar-toggler i{
-        transform: rotateY(180deg);
-    }
-    .navbar-toggler:focus{
-        box-shadow: none;
-    }
-    .support{
-        padding-bottom: 60px;
-    }
-    .support .card-wrap{
-        padding: 25px 15px;
-    }
-    .about,.services,.experts,.testimonial,
-    .news,.partners{
-        padding: 60px 0;
-    }
-    .about::before {
-        height: 0;
-    }
-    .experts-img{
-        height: 200px;
-    }
-
-    .testimonial .testi-card .profile-pic {
-        height: auto
-    }
- 
-    .news .news-card .news-thumbnail{
-        height: 180px;
-    }
-    footer .navbar-brand img {
-        width: 55%;
-    }
-    .widget-three,.widget-four{
-        margin-top: 40px;
-    }
-}
-
- /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 767px) { 
     a.navbar-brand{
         z-index: 30;
     }
@@ -133,6 +93,41 @@
         background-color: #fff;
         transition: all 0.7s ease;
     }
+    .support{
+        padding-bottom: 60px;
+    }
+    .support .card-wrap{
+        padding: 25px 15px;
+    }
+    .about,.services,.experts,.testimonial,
+    .news,.partners{
+        padding: 60px 0;
+    }
+    .about::before {
+        height: 0;
+    }
+    .experts-img{
+        height: 200px;
+    }
+
+    .testimonial .testi-card .profile-pic {
+        height: auto
+    }
+ 
+    .news .news-card .news-thumbnail{
+        height: 180px;
+    }
+    footer .navbar-brand img {
+        width: 55%;
+    }
+    .widget-three,.widget-four{
+        margin-top: 40px;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    
     .contact-info ul{
         flex-direction: column;
         gap: 0;
