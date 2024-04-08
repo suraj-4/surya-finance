@@ -82,6 +82,11 @@ span{
     /* line-height: 36px; */
     font-family: 'Montserrat', sans-serif;
 }
+/* .form-control:focus, */
+.btn:focus{
+    box-shadow: none;
+    /* border: 0; */
+}
 .btn{
     font-size: 20px;
     font-weight: 500;
@@ -95,21 +100,19 @@ span{
     background-color: var(--theme-color-green);
     border: 2px solid var(--theme-color-green);
 }
+
 .btn i{
     font-size: 20px;
     color: var(--bs-white);
     transition: all .5s ease-in-out;
 }
+.btn-green:focus,
 .btn-green:hover ,.btn:hover i{
     background-color: transparent;
     color: var(--theme-color-green);
     transition: all .5s ease-in-out;    
 }
-.form-control:focus,
-.btn:focus{
-    box-shadow: none;
-    border: 0;
-}
+
 img{
     max-width: 100%;
     height: auto;
@@ -124,6 +127,9 @@ button:focus-visible{
 i{
     font-size: 60px;
     color: var(--theme-color-green);
+}
+.px-80{
+    padding-block: 80px;
 }
  /* Top header */
 .top-header{
@@ -208,7 +214,14 @@ i{
 .bottom-header .btn{
     margin-top: 0;
 }
-
+.bottom-header .btn i{
+    font-size: 24px;
+    margin-right: 5px;
+}
+.bottom-header .btn:focus i,
+.bottom-header .btn:hover i{
+    color: var(--theme-color-green);
+}
 /* Hero section */
 .banner{
     /* background: url('../images/banner.jpg');
@@ -242,11 +255,11 @@ i{
 }
 /* Support Section */
 .support {
-   margin-top: -100px;
-   padding-bottom: 80px;
-   text-align: center;
-   z-index: 1;
-position: relative;
+    margin-top: -100px;
+    padding-bottom: 80px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
 }
 .support .card-wrap{
     height: 100%;
@@ -340,10 +353,6 @@ position: relative;
 }
 
 /* our service */
-.services{
-    padding: 80px 0;
-    text-align: center;
-}
 .services .col-lg-4{
     margin-top: 25px;
 }
@@ -381,7 +390,6 @@ position: relative;
 }
 /* counter section */
 .counter{
-    padding: 80px 0;
     background-size: cover;
     background-position:  center center;
     background-repeat: no-repeat;
@@ -394,10 +402,6 @@ position: relative;
     font-size: 40px;
 }
 /* expert section */
-.experts{
-    padding: 80px 0;
-}
-
 .experts-card{
     position: relative;
 }
@@ -462,7 +466,6 @@ position: relative;
 .testimonial{
     color: var(--bs-white);
     text-align: center;
-    padding: 80px 0;
     background-color: var(--theme-color-green);
 }
 .testimonial .heading{
@@ -532,13 +535,6 @@ position: relative;
     clip-path: polygon(0% 0%, 230% 220%, 0 110%, 0% 80%);
 }
 /* latest news */
-.news{
-    padding: 80px 0;
-}
-.news .heading{
-    text-align: center;
-    margin-bottom: 40px;
-}
 .news .news-card {
     text-align: center;
     height: 100%;
@@ -576,7 +572,6 @@ position: relative;
 }
 /* our partner section */
 .partners{
-    padding: 80px 0;
     background-color: rgb(230, 230, 230);
 }
 .partners .row{
@@ -599,15 +594,11 @@ footer{
 footer h6{
     color: var(--bs-white);
 }
-footer .navbar-brand img{
-    width: 70%;
-    height: 60px;
+a.f-logo {
+    display: block;
+    max-width: 175px;
+    margin-bottom: 20px;
 }
-footer .widget-one .ftrplantext h1,
-footer .widget-one .ftrplantext h2,
-footer .widget-one .ftrplantext h3,
-footer .widget-one .ftrplantext h4,
-footer .widget-one .ftrplantext h5,
 footer .widget-one .ftrplantext h6{
     font-size: 20px;
     color: var(--bs-white);
@@ -618,8 +609,7 @@ footer p{
     color: var(--bs-white);
     font-size: 16px;
 }
-footer ul,
-.subcribe-form{
+footer ul{
     margin-top: 20px;
     font-size: 16px;
 }
@@ -639,17 +629,3 @@ footer ul li span{
 footer a:hover{
     color: var(--theme-color-green);
 }
-footer .form-control{
-    border-radius: 0;
-}
-footer form .btn{
-    padding: 5px 10px;
-    margin-top: 0;
-    border-radius: 0;
-}
-footer form button i{
-    color: var(--bs-white);
-    font-size: 16px;
-}
-
-
