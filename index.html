@@ -20,7 +20,7 @@
 
   <body>
     <!-- Header Start -->
-    <header>
+    <header class="header">
       <!-- Top-Header Start -->
       <div class="top-header">
         <div class="container">
@@ -44,18 +44,10 @@
             <div class="social-icon">
               <p>Follow :</p>
               <ul>
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                </li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
@@ -80,25 +72,21 @@
                   <a class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                    Cases
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                  </ul>
+                  <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
               </ul>
-              <a class="btn btn-green" type="submit">
-                <i class="fa-solid fa-mobile-screen"></i> Contact Now</a>
+              <a href="https://wa.me/9073706773" class="btn btn-green" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> Whatsapp Now
+              </a>
             </div>
           </div>
         </nav>
@@ -175,7 +163,7 @@
     <!-- Support Section End -->
 
     <!-- About Section Start -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
@@ -236,11 +224,11 @@
     <!-- About Section End -->
 
     <!-- our service Section Start -->
-    <section class="services">
+    <section class="services px-80" id="service">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="heading-wrap">
+          <div class="col-lg-8 mx-auto">
+            <div class="heading-wrap text-center mb-lg-5 mb-3">
               <h2>Our Services</h2>
               <h3>What We Offer</h3>
               <p>Some quick example text to build on the card title and make up
@@ -341,15 +329,13 @@
             </div>
           </div>
         </div>
-        <a class="btn btn-green">View All
-          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-        </a>
+        
       </div>
     </section>
     <!-- our service Section End -->
 
     <!-- Counter Section  Start -->
-    <section class="counter" style="background-image: url('./assets/images/counter.jpg')">
+    <section class="counter px-80" style="background-image: url('./assets/images/counter.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-12">
@@ -386,7 +372,7 @@
     <!-- Counter Section  End -->
 
     <!-- Our Expert Section Start -->
-    <section class="experts">
+    <section class="experts px-80">
       <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
@@ -445,107 +431,115 @@
     <!-- Our Expert Section End -->
 
     <!-- Testimonial Section Start -->
-    <section class="testimonial">
-      <div class="container">
-        <div class="heading"><h3>Happy Clients Says</h3></div>
-        <div class="owl-carousel owl-three owl-theme">
-          <div class="item">
-            <div class="testi-card">
-              <div class="profile-pic">
-                <img src="./assets/images/testi-1.jpg" alt="Review">
-              </div>
-              <div class="profile-info">
-                <h4>John Son</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, sed.</p>
-              </div>
+    <section class="testimonial px-80">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="heading text-center mb-lg-5 mb-3"><h3>Happy Clients Says</h3></div>
             </div>
           </div>
-          <div class="item">
-            <div class="testi-card">
-              <div class="profile-pic">
-                <img src="./assets/images/testi-2.jpg" alt="">
-              </div>
-              <div class="profile-info">
-                <h4>John Son</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, sed.</p>
+          <div class="owl-carousel owl-three owl-theme">
+            <div class="item">
+              <div class="testi-card">
+                <div class="profile-pic">
+                  <img src="./assets/images/testi-1.jpg" alt="Review">
+                </div>
+                <div class="profile-info">
+                  <h4>John Son</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, sed.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="testi-card">
-              <div class="profile-pic">
-                <img src="./assets/images/testi-1.jpg" alt="Review">
+            <div class="item">
+              <div class="testi-card">
+                <div class="profile-pic">
+                  <img src="./assets/images/testi-2.jpg" alt="">
+                </div>
+                <div class="profile-info">
+                  <h4>John Son</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, sed.</p>
+                </div>
               </div>
-              <div class="profile-info">
-                <h4>John Son</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, sed.</p>
+            </div>
+            <div class="item">
+              <div class="testi-card">
+                <div class="profile-pic">
+                  <img src="./assets/images/testi-1.jpg" alt="Review">
+                </div>
+                <div class="profile-info">
+                  <h4>John Son</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, sed.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-  </section>
+    </section>
     <!-- Testimonial Section End -->
 
     <!-- News Section Start -->
-    <section class="news">
-      <div class="container">
-        <div class="heading">
-          <h3>Latest News</h3>
-          <p>Some quick example text to build on the card title and make up the bulk of the card's content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
-        </div>
-        <div class="owl-carousel owl-forth owl-theme">
-          <div class="item">
+    <section class="news px-80" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="heading text-center mb-lg-5 mb-3">
+                <h3>Latest News</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel owl-forth owl-theme">
+            <div class="item">
+                <div class="news-card">
+                  <div class="news-thumbnail">
+                    <img src="./assets/images/news_img-1.jpg" alt="">
+                    </div>
+                    <div class="news-content">
+                      <h4><a href="#">How to Start a Successful SaaS Company in 2020</a></h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
               <div class="news-card">
                 <div class="news-thumbnail">
-                  <img src="./assets/images/news_img-1.jpg" alt="">
+                    <img src="./assets/images/news_img-2.jpg" alt="news">
                   </div>
                   <div class="news-content">
                     <h4><a href="#">How to Start a Successful SaaS Company in 2020</a></h4>
                     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
               </div>
-          </div>
-          <div class="item">
-            <div class="news-card">
-              <div class="news-thumbnail">
-                  <img src="./assets/images/news_img-2.jpg" alt="news">
-                </div>
-                <div class="news-content">
-                  <h4><a href="#">How to Start a Successful SaaS Company in 2020</a></h4>
-                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="news-card">
-              <div class="news-thumbnail">
-                  <img src="./assets/images/news_img-3.jpg" alt="news">
-                </div>
-                <div class="news-content">
-                  <h4><a href="#">How to Start a Successful SaaS Company in 2020</a></h4>
-                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+            <div class="item">
+              <div class="news-card">
+                <div class="news-thumbnail">
+                    <img src="./assets/images/news_img-3.jpg" alt="news">
+                  </div>
+                  <div class="news-content">
+                    <h4><a href="#">How to Start a Successful SaaS Company in 2020</a></h4>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="news-card">
-              <div class="news-thumbnail">
-                  <img src="./assets/images/news_img-1.jpg" alt="news">
-                </div>
-                <div class="news-content">
-                  <h4><a href="#">How to Start a Successful SaaS Company in 2020</a></h4>
-                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+            <div class="item">
+              <div class="news-card">
+                <div class="news-thumbnail">
+                    <img src="./assets/images/news_img-1.jpg" alt="news">
+                  </div>
+                  <div class="news-content">
+                    <h4><a href="#">How to Start a Successful SaaS Company in 2020</a></h4>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-  </section>
+    </section>
     <!-- News Section End -->
 
     <!-- Our Partner Start -->
-    <section class="partners">
+    <section class="partners px-80">
       <div class="container">
           <div class="row">
               <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12">
@@ -576,16 +570,56 @@
               </div>
           </div>
       </div>
-  </section>
+    </section>
     <!-- Our Partner End -->
+
+    <!-- Our Contact Start -->
+    <section class="contact px-80" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="heading text-center mb-lg-5 mb-3">
+              <h3>Contact Us</h3>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <div class="form-wrapper">
+                <form>
+                  <div class="mb-3">
+                    <input type="text" class="form-control shadow-none" id="InputfullName" placeholder="Full Name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control shadow-none" id="InputEmail" placeholder="Email Address">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control shadow-none" id="InputNumber" placeholder="Phone No.">
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control shadow-none" placeholder="Leave a comment here" id="Textarea"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-green">Submit</button>
+                </form>
+              </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.006024981992!2d88.44250977397512!3d22.6535639794341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89faa59df6903%3A0xdb1444043648b83!2sNetaji%20Subhash%20Chandra%20Bose%20International%20Airport!5e0!3m2!1sen!2sin!4v1712599620284!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Contact End -->
 
     <!-- Footer Section Start -->
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12">
             <div class="widget-one">
-              <a class="navbar-brand" href="#">
+              <a class="f-logo" href="#">
                 <img src="./assets/images/footer_logo.png" alt="company logo" />
               </a>
               <div class="ftrplantext">
@@ -597,7 +631,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12">
             <div class="widget-two">
               <h6>Recent Posts</h6>
               <ul>
@@ -620,7 +654,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12">
             <div class="widget-three">
               <h6>Credit By</h6>
               <ul>
@@ -631,20 +665,6 @@
                 <li><a href="#">Owl Carousel</a></li>      
                 <li><a href="#">Font Awesome</a></li>      
               </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="widget-four">
-              <h6>Subcribe</h6>
-              <div class="subcribe-form">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <form class="d-flex mt-3">
-                  <input type="email" class="form-control" placeholder="Subcribe...">
-                  <button type="submit" class="btn btn-green">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </form>
-              </div>
             </div>
           </div>
         </div>
